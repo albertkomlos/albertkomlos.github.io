@@ -1,0 +1,36 @@
+ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+  background: purple;
+  height: 50px;
+  align-item: center;
+  margin: 0px;
+}
+
+ul a {
+  display: block;
+  background: cyan;
+  height: 30px;
+  width: 100px;
+  margin: 10px;
+}
+
+.bigger {
+  width: 150px;
+}
+
+.container {
+  display: flex;
+  height: 500px;
+}
+
+.yellow {
+  background: yellow;
+  flex-grow: 4;
+}
+
+.green {
+  background: lime;
+  flex-grow: 1;
+}

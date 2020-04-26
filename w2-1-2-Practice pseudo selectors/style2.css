@@ -1,0 +1,30 @@
+.big {
+    color: blue;
+}
+
+.container .asteroid {
+    border: 1px solid green;
+    width: 300px;
+}
+
+div {
+    font-weight: bold;
+}
+
+#business {
+    background-color: yellow;
+    width: 300px;
+}
+
+p {
+    width: 300px;
+    border: 1px solid black;
+    margin  : -1px;
+}
+
+p:hover {
+    background: orangered;
+}
+
+
+

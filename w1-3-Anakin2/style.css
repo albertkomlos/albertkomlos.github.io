@@ -1,0 +1,141 @@
+body {
+  margin: auto;
+  max-width: 1000px;
+  background: black;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 22px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+nav {
+  width: 100%;
+  max-width: 1000px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background: #222;
+  position: fixed;
+  top: 0px; 
+  z-index: 5;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  box-sizing: border-box;
+  background: white;
+  margin-top: 45px;
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 1.5;
+}
+
+main {
+  box-sizing: border-box;
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 50px;
+  align-items: flex-start;
+}
+
+header {
+  box-sizing: border-box;
+  background-image: url('images/first-website-header.png');
+  background-size: cover;
+  background: no-repeat;
+  background-position: -250px;
+  height: 300px;
+  margin-top: -35px;
+  position: relative;
+  min-width: 380px;
+  flex: 2 1 100px;
+}
+
+/* img {
+  box-sizing: border-box;
+  position: absolut;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  margin-top: -50px;
+} */
+
+h1{
+  position: absolute;
+  left: 25px;
+  bottom: 10px;
+  line-height: 1;
+  font-family: 'Abril Fatface', cursive;
+  font-weight: 200;
+  font-size: 60px;
+  letter-spacing: 10px;
+  margin: 0px;
+  width: 100%;
+  min-width: 300px;
+}
+
+h1::first-line {
+  font-size: 30px;
+}
+
+blockquote {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+/*   width: 40%;
+  max-width: 40%;
+  min-width: 300px; */
+  background: #444;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 50px;
+  padding: 50px;
+  position: relative;
+  margin-left: 0px;
+  flex: 2 1 200px;
+}
+
+blockquote::before {
+  content: '”';
+  font-size: 200px;
+  position: absolute;
+  left: 0px;
+  top: -70px;
+}
+
+section {
+  box-sizing: border-box;
+  padding: 0px 40px 0px 20px;
+  display: flex;
+  flex-direction: column;
+/*   max-width: 0%; */
+/*   min-width: 400px; */
+  flex: 1 1 500px;
+}
+
+ul{
+ list-style-type: square; 
+}
+
+h2{
+  text-transform: uppercase;
+  font-weight: bold; 
+}
+
+h3 {
+   font-weight: bold; 
+ }
+
+.title {
+	margin-top: 0px;
+	font-size: 15px;
+	font-family: 'Merriweather', serif;
+}

@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  background: #ffd62a;
+  width: 400px;
+  height: 150px;
+  padding: 0px;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+
+li {
+  background: #b02afe;
+  list-style-type: none;
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+  
+ 
+  
+}
